@@ -1,0 +1,90 @@
+/*--NAVBAR--*/
+#main-navbar a{
+    border-bottom: 5px solid #f8f8f8;
+    text-transform: uppercase;
+}
+
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: black;
+    transition: border-color 500ms;
+}
+
+/*--SHOWCASE--*/
+#showcase {
+    background: url(../img/images6.jpg);
+    width: 100%;
+    height: 600px;
+    padding-top: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+#showcase h1{
+    padding-top: 250px;
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+#sejarah {
+    gap: 10px;
+    align-items: center;
+    text-align: top;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 50px;
+}
+
+.img {
+    position: relative;
+    width: 50%;
+    visibility: visible;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#showoff-1 {
+    color: green;
+}
+
+#profile {
+    background-color: green;
+    color: white;
+}
+
+#misi {
+    background-color: green;
+    color: white;
+}
+
+#profile th {
+    color: white;
+}
+
+#profile td {
+    color: white;
+}
+
+#gallery {
+    padding: 20px;
+}
+
+
+#main-footer {
+    background-color: darkgreen;
+}
+
+
